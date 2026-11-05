@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="DKA School">
-  <rect width="56" height="56" rx="12" fill="#4a1518"/>
-  <path d="M28 10.5 42 16v11c0 8.6-5.8 15-14 18.5C19.8 42 14 35.6 14 27V16l14-5.5Z" stroke="#d6b36a" stroke-width="2.2" stroke-linejoin="round"/>
-  <path d="M28 33.5c-2.6-1.6-5.6-2.2-8.5-1.8v-9c2.9-.4 5.9.2 8.5 1.8 2.6-1.6 5.6-2.2 8.5-1.8v9c-2.9-.4-5.9.2-8.5 1.8Zm0-9v9" stroke="#f3e9dc" stroke-width="1.8" stroke-linejoin="round"/>
-  <path d="m28 15.6.9 1.9 2 .3-1.5 1.4.4 2-1.8-1-1.8 1 .4-2-1.5-1.4 2-.3.9-1.9Z" fill="#d6b36a"/>
-</svg>

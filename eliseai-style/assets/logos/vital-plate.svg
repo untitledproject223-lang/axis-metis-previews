@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="Vital Plate">
-  <rect width="56" height="56" rx="12" fill="#183a2c"/>
-  <circle cx="28" cy="28" r="15" stroke="#e8e1cf" stroke-width="2.4"/>
-  <circle cx="28" cy="28" r="9.5" stroke="#e8e1cf" stroke-opacity=".45" stroke-width="1.4"/>
-  <path d="M28 36c-5.5-3.2-6.4-10.2 0-16 6.4 5.8 5.5 12.8 0 16Z" fill="#8fc49a"/>
-  <path d="M28 22.5V36" stroke="#183a2c" stroke-width="1.4" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" role="img" aria-label="Vital Plate">
+  <rect width="56" height="56" rx="8" fill="#14532d"/>
+  <text x="28" y="26" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="400" font-size="11" fill="#f0fdf4">Vital</text>
+  <text x="28" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="400" font-size="11" fill="#f0fdf4" fill-opacity=".75">Plate</text>
 </svg>

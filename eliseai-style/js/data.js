@@ -86,7 +86,7 @@ window.AXIS = {
       name: "Digital Dwella",
       summary: "Letting CRM for units, tenants, rent, and tickets.",
       logo: "assets/logos/digital-dwella.svg",
-      color: "#0e2a28",
+      color: "#134e4a",
       kicker: "The work",
       work: "A property operations platform delivered as three products, Urban, Township, and Stay, each modelled on a different letting environment.",
       outcome: "Estate tenancies, on-the-ground placement, and accommodation sites run as distinct products on one platform.",
@@ -99,6 +99,17 @@ window.AXIS = {
             { title: "Stay", body: "Operates an accommodation property as a whole, such as student residences and other multi-occupancy sites, covering occupancy and day-to-day operations in one record." },
           ],
         },
+        {
+          label: "What it had to handle",
+          items: [
+            { title: "Different rules per environment", body: "Formal screening in urban estates, faster placement in townships, and whole-property operations for accommodation sites, without forcing one process on all three." },
+            { title: "One record per tenancy", body: "Units, tenants, rent, and maintenance tickets kept together instead of across separate lists." },
+          ],
+        },
+        {
+          label: "Used by",
+          items: [{ title: "Letting staff and property managers", body: "" }],
+        },
       ],
       shipped: ["Urban", "Township", "Stay", "Tenancies & rent"],
     },
@@ -108,11 +119,24 @@ window.AXIS = {
       name: "Pheli Seafood",
       summary: "Restaurant ordering and kitchen dispatch on web and mobile.",
       logo: "assets/logos/pheli-seafood.svg",
-      color: "#0b2540",
+      color: "#0c4a6e",
       kicker: "Commerce + mobile",
       work: "Ordering platform and kitchen administration for a high-volume Atteridgeville restaurant, with native apps on both mobile platforms.",
       outcome: "Online ordering and kitchen dispatch running on one order queue.",
-      groups: [],
+      groups: [
+        {
+          label: "What it had to handle",
+          items: [
+            { title: "High order volume", body: "A busy Atteridgeville restaurant taking orders through the website and native iOS and Android apps at the same time." },
+            { title: "One queue for the kitchen", body: "Every order, whatever channel it came from, lands in the same queue the kitchen works from." },
+            { title: "Menu and stock control", body: "Staff update the menu and stock themselves, without a developer." },
+          ],
+        },
+        {
+          label: "Used by",
+          items: [{ title: "Customers ordering, and the kitchen team", body: "" }],
+        },
+      ],
       shipped: ["Menu & stock", "Checkout", "Kitchen admin", "iOS · Android"],
     },
     {
@@ -121,11 +145,23 @@ window.AXIS = {
       name: "Vital Plate",
       summary: "Dietetics practice desk for records, bookings, and meal plans.",
       logo: "assets/logos/vital-plate.svg",
-      color: "#183a2c",
+      color: "#14532d",
       kicker: "Practice system",
       work: "Patient records, bookings, and consultation notes for a dietetics practice, built around clinical confidentiality requirements.",
       outcome: "Consolidated patient history and bookings into one practice desk.",
-      groups: [],
+      groups: [
+        {
+          label: "What it had to handle",
+          items: [
+            { title: "Clinical confidentiality", body: "Patient records and consultation notes are only visible to the people who should see them." },
+            { title: "One patient history", body: "Bookings, consultation notes, and meal plans linked to the same patient instead of kept in separate places." },
+          ],
+        },
+        {
+          label: "Used by",
+          items: [{ title: "Dietitians and practice staff", body: "" }],
+        },
+      ],
       shipped: ["Patient records", "Consultations", "Bookings", "Practice desk"],
     },
     {
@@ -133,12 +169,24 @@ window.AXIS = {
       sector: "Education",
       name: "DKA School",
       summary: "School website and admin for learners, parents, and staff.",
-      logo: "assets/logos/dka-school.svg",
-      color: "#4a1518",
+      logo: "assets/logos/dka-school.jpeg",
+      color: "#0b2a5b",
       kicker: "Public website",
-      work: "Public-facing school website covering academics, admissions, news, and contact, structured for parents and prospective families.",
+      work: "Public-facing website for Divine Kingdom Academy covering academics, admissions, news, and contact, structured for parents and prospective families.",
       outcome: "Gave admissions a single authoritative public channel.",
-      groups: [],
+      groups: [
+        {
+          label: "What it had to handle",
+          items: [
+            { title: "Several audiences", body: "Parents, prospective families, and staff each need different information, so the site is organised around what each group is looking for." },
+            { title: "One place for admissions", body: "Academics, admissions, news, and contact sit in one structure, so families get the same answer wherever they look." },
+          ],
+        },
+        {
+          label: "Used by",
+          items: [{ title: "Parents, prospective families, and school staff", body: "" }],
+        },
+      ],
       shipped: ["Homepage", "Academics", "Admissions", "News & events"],
     },
     {
@@ -147,11 +195,23 @@ window.AXIS = {
       name: "Nendila Travels",
       summary: "Travel agency bookings, clients, and PDF invoices.",
       logo: "assets/logos/nendila-travels.svg",
-      color: "#1c2a3a",
+      color: "#713f12",
       kicker: "Agency system",
       work: "Booking, client management, and invoicing for a travel agency, including generated PDF documentation for travellers.",
       outcome: "Bookings, clients, and invoicing handled in one agency system.",
-      groups: [],
+      groups: [
+        {
+          label: "What it had to handle",
+          items: [
+            { title: "Booking to invoice in one flow", body: "A booking, the client it belongs to, and the invoice for it are kept in the same system." },
+            { title: "Documents for travellers", body: "PDF invoices and travel documentation are generated from the booking rather than typed up separately." },
+          ],
+        },
+        {
+          label: "Used by",
+          items: [{ title: "Agency consultants and their travellers", body: "" }],
+        },
+      ],
       shipped: ["Bookings", "Clients", "PDF invoices", "Documents"],
     },
   ],

@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="Pheli Seafood">
-  <rect width="56" height="56" rx="12" fill="#0b2540"/>
-  <path d="M11 27c6-8.5 17-10 26-3.5L44 18v18l-7-5.5C28 37 17 35.5 11 27Z" stroke="#f1e6d2" stroke-width="2.4" stroke-linejoin="round"/>
-  <circle cx="19" cy="25.5" r="1.5" fill="#f1e6d2"/>
-  <path d="M26 21.5c1.6 3.4 1.6 7.6 0 11" stroke="#ef7d5d" stroke-width="2" stroke-linecap="round"/>
-  <path d="M12 42c3-2 6-2 9 0s6 2 9 0 6-2 9 0" stroke="#ef7d5d" stroke-width="2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" role="img" aria-label="Pheli Seafood">
+  <rect width="56" height="56" rx="8" fill="#9b1c1c"/>
+  <text x="28" y="26" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="11" fill="#fff4ec">Pheli</text>
+  <text x="28" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="11" fill="#fff4ec" fill-opacity=".75">Seafood</text>
 </svg>
