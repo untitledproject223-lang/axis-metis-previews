@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axis Metis · Operational systems, built and handed over</title>
+<meta name="description" content="Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel businesses in South Africa.">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header id="top" class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="#main" aria-label="Axis Metis home"><span class="brand-mark" aria-hidden="true">AM</span><span>Axis Metis</span></a>
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="menu"><span class="bars" aria-hidden="true"></span><span class="sr">Menu</span></button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#featured">Featured</a>
+      <a href="#services">Services</a>
+      <a href="#library">Library</a>
+      <a href="#process">Process</a>
+      <a class="cta-link" href="#contact">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="stage" aria-label="Introduction">
+    <video class="stage-video" id="stage-video" src="assets/team.mp4" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+    <div class="stage-shade" aria-hidden="true"></div>
+    <div class="wrap stage-inner">
+      <p class="eyebrow">Axis Metis · Johannesburg</p>
+      <h1 id="hero-title"></h1>
+      <p class="lede" id="hero-body"></p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact">Start a project</a>
+        <a class="btn btn-dark" href="#library">Browse the library</a>
+      </div>
+    </div>
+    <div class="wrap stage-meta">
+      <ul id="assurances"></ul>
+      <button class="video-toggle" id="video-toggle" aria-pressed="false">Pause video</button>
+    </div>
+  </section>
+
+  <section id="featured" class="section wrap" aria-roledescription="carousel" aria-label="Featured work">
+    <div class="section-head">
+      <h2>Featured work</h2>
+      <div class="arrows">
+        <button class="arrow" id="feat-prev" aria-label="Previous project">‹</button>
+        <button class="arrow" id="feat-next" aria-label="Next project">›</button>
+      </div>
+    </div>
+    <div class="featured">
+      <div class="feat-main" id="feat-main" aria-live="polite"></div>
+      <ol class="feat-list" id="feat-list"></ol>
+    </div>
+  </section>
+
+  <section id="services" class="section wrap">
+    <div class="section-head">
+      <h2>Services</h2>
+      <p class="muted">Three practices, one delivery team.</p>
+    </div>
+    <div class="covers" id="covers"></div>
+  </section>
+
+  <section id="library" class="section wrap">
+    <div class="section-head">
+      <h2>Library</h2>
+      <p class="muted" id="lib-count"></p>
+    </div>
+    <div class="toolbar">
+      <label class="search"><span class="sr">Search the library</span><input id="lib-search" type="search" placeholder="Search projects, sectors, or features" autocomplete="off"></label>
+      <div class="genres" id="genres" role="group" aria-label="Sector"></div>
+      <label class="sort">Sort
+        <select id="lib-sort">
+          <option value="featured">Featured</option>
+          <option value="az">A to Z</option>
+          <option value="sector">Sector</option>
+        </select>
+      </label>
+    </div>
+    <div class="library" id="lib-grid"></div>
+    <div class="empty" id="lib-empty" hidden>
+      <p>Nothing matches that search.</p>
+      <button class="btn btn-dark" id="lib-reset">Clear filters</button>
+    </div>
+  </section>
+
+  <section id="process" class="section">
+    <div class="wrap section-head">
+      <h2>Process</h2>
+      <div class="arrows">
+        <span class="chapter-count" id="chapter-count">01 / 06</span>
+        <button class="arrow" id="ch-prev" aria-label="Previous phase">‹</button>
+        <button class="arrow" id="ch-next" aria-label="Next phase">›</button>
+      </div>
+    </div>
+    <div class="chapters" id="chapters" tabindex="0" aria-label="Six phases, scroll sideways"></div>
+    <div class="wrap"><div class="chapter-bar"><i id="chapter-bar"></i></div></div>
+  </section>
+
+  <section id="standards" class="section wrap">
+    <div class="section-head"><h2>Standards</h2><p class="muted">What every engagement includes.</p></div>
+    <div class="standards" id="standards-list"></div>
+  </section>
+
+  <section id="fit" class="section wrap">
+    <div class="section-head"><h2>Is it a fit?</h2></div>
+    <div class="fit">
+      <div class="fit-col yes"><h3>Build it</h3><ul id="fit-yes"></ul></div>
+      <div class="fit-col no"><h3>Do not build it</h3><ul id="fit-no"></ul></div>
+    </div>
+  </section>
+
+  <section id="stack" class="section wrap">
+    <div class="section-head"><h2>Specifications</h2><p class="muted">The stack behind every build.</p></div>
+    <dl class="specs" id="specs"></dl>
+  </section>
+
+  <section id="contact" class="section wrap contact">
+    <div class="contact-copy">
+      <h2>Start a project</h2>
+      <p class="muted">Tell us where the process breaks down. We reply within two business days. If the work fits, the next step is a discovery session, then a written scope.</p>
+      <dl class="contact-meta">
+        <div><dt>Email</dt><dd><a href="mailto:admin@axismetis.co.za">admin@axismetis.co.za</a></dd></div>
+        <div><dt>Based in</dt><dd>Johannesburg, South Africa</dd></div>
+      </dl>
+    </div>
+    <form id="contact-form" class="form" novalidate>
+      <label>Name<input required name="name" autocomplete="name"></label>
+      <label>Email<input required type="email" name="email" autocomplete="email"></label>
+      <label class="full">Company<input name="company" autocomplete="organization"></label>
+      <label class="full">What you need<select name="need"></select></label>
+      <label class="full">The problem<textarea required name="message" rows="6" placeholder="What does the process look like today, and where does it break down?"></textarea></label>
+      <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="full form-foot">
+        <button type="submit" class="btn btn-primary">Send enquiry</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </div>
+      <p class="full fine">Enquiries are used only to reply to you. See the <a href="#" data-legal="privacy">Privacy</a> notice.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <a class="brand" href="#main"><span class="brand-mark" aria-hidden="true">AM</span><span>Axis Metis</span></a>
+    <nav aria-label="Legal"><a href="#" data-legal="privacy">Privacy</a><a href="#" data-legal="terms">Terms</a><a href="mailto:admin@axismetis.co.za">admin@axismetis.co.za</a></nav>
+    <p>© <span data-year></span> Axis Metis. Johannesburg, South Africa.</p>
+  </div>
+</footer>
+
+<dialog id="dialog" class="dialog">
+  <button class="dialog-close" data-close aria-label="Close">Close</button>
+  <div id="dialog-body"></div>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

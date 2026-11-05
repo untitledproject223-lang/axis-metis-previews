@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axis Metis · Systems with energy</title>
+<meta name="description" content="Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel businesses in South Africa.">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Unbounded:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body class="loading">
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-cans" id="loader-cans"></div>
+  <p class="loader-text">Loading systems</p>
+  <div class="loader-bar"><span id="loader-bar"></span></div>
+</div>
+
+<a class="skip" href="#main">Skip to content</a>
+<div class="mesh" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+<header class="top" id="top">
+  <a class="brand pill" href="#main" aria-label="Axis Metis home"><img src="assets/icon.svg" alt="" width="22" height="22"> Axis Metis</a>
+  <button class="pill menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav id="menu" class="menu" aria-label="Main">
+    <a class="pill" href="#work">Work</a>
+    <a class="pill" href="#process">Process</a>
+    <a class="pill" href="#standards">Why us</a>
+    <a class="pill" href="#faq">FAQ</a>
+    <a class="pill solid" href="#contact">Start a project</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" aria-label="Introduction">
+    <p class="giant" aria-hidden="true">AXIS</p>
+    <div class="hero-cans" id="hero-cans" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">Johannesburg · Built to be owned</p>
+      <h1>Systems with <em>energy.</em></h1>
+      <p class="lead" id="hero-body"></p>
+      <div class="hero-cta">
+        <a class="btn" href="#contact">Start a project</a>
+        <a class="btn ghost" href="#work">See the flavours</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="spot" id="work" aria-labelledby="work-title">
+    <div class="spot-inner">
+      <div class="spot-copy">
+        <p class="eyebrow" id="spot-count"></p>
+        <h2 id="work-title" class="display">5 Sectors.<br>1 Team.</h2>
+        <h3 id="spot-name"></h3>
+        <p id="spot-work"></p>
+        <ul class="chips" id="spot-shipped"></ul>
+        <div class="spot-actions">
+          <a class="btn dark" href="#work" id="spot-open">Open case study</a>
+          <a class="btn ghost-dark" href="#contact" id="spot-need">Start a similar project</a>
+        </div>
+      </div>
+      <div class="spot-stage">
+        <button class="round prev" id="spot-prev" aria-label="Previous project">&#8592;</button>
+        <div class="spot-can" id="spot-can"></div>
+        <button class="round next" id="spot-next" aria-label="Next project">&#8594;</button>
+      </div>
+    </div>
+    <div class="spot-dots" id="spot-dots" role="tablist" aria-label="Projects"></div>
+  </section>
+
+  <section class="statement" id="statement" aria-label="Statement">
+    <p id="statement-text">We map the process, write the scope, build it in the open, test it before launch, and hand it over in your name. No lock-in. No guesswork. Just the system your business runs on.</p>
+  </section>
+
+  <section class="pin" id="process" aria-labelledby="process-title">
+    <div class="pin-sticky">
+      <div class="pin-head">
+        <h2 id="process-title" class="display">Six steps.<br>Zero guesswork.</h2>
+        <p class="pin-progress"><span id="pin-bar"></span></p>
+      </div>
+      <div class="pin-track" id="pin-track"></div>
+    </div>
+  </section>
+
+  <section class="practices" aria-labelledby="practices-title">
+    <h2 id="practices-title" class="display">Pick your mix.</h2>
+    <div class="mix" id="mix"></div>
+  </section>
+
+  <section class="standards" id="standards" aria-labelledby="standards-title">
+    <h2 id="standards-title" class="display">Why Axis Metis</h2>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title" class="display">Questions,<br>answered.</h2>
+    <div class="faq-list" id="faq-list"></div>
+  </section>
+
+  <section class="fit" id="fit" aria-labelledby="fit-title">
+    <h2 id="fit-title" class="display">Not for everyone.<br><em>For the right build.</em></h2>
+    <div class="fit-toggle" role="tablist" aria-label="Fit">
+      <button role="tab" aria-selected="true" data-fit="yes">Build it</button>
+      <button role="tab" aria-selected="false" data-fit="no">Don't build it</button>
+    </div>
+    <ul class="fit-list" id="fit-list"></ul>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="contact-panel">
+      <div class="contact-copy">
+        <h2 id="contact-title" class="display">Let's get it built.</h2>
+        <p>Tell us where the process breaks down. We reply within two business days. If the work fits, the next step is a discovery session, then a written scope.</p>
+        <a class="pill solid big" id="contact-mail" href="#"></a>
+        <p class="stack" id="stack"></p>
+      </div>
+      <form id="contact-form" class="form" novalidate>
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Company<input name="company" autocomplete="organization"></label>
+        <label>What you need<select name="need"></select></label>
+        <label class="wide">The problem<textarea name="message" rows="4" required placeholder="What does the process look like today, and where does it break down?"></textarea></label>
+        <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <button class="btn dark wide" type="submit">Send enquiry</button>
+        <p class="form-status wide" id="form-status" role="status"></p>
+        <p class="fine wide">Enquiries are used only to reply to you. See the <a href="#" data-legal="privacy">Privacy notice</a>.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot-word" aria-hidden="true">AXIS METIS</p>
+  <div class="foot-row">
+    <span>© <span data-year></span> Axis Metis. Johannesburg, South Africa.</span>
+    <nav aria-label="Legal"><a href="#" data-legal="privacy">Privacy</a><a href="#" data-legal="terms">Terms</a></nav>
+  </div>
+</footer>
+
+<dialog id="dialog" class="dialog">
+  <button class="dialog-close" data-close aria-label="Close">Close</button>
+  <div id="dialog-body"></div>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

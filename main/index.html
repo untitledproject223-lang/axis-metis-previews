@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axis Metis · Operational systems, built and handed over</title>
+<meta name="description" content="Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel businesses in South Africa.">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header id="top" class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="#main" aria-label="Axis Metis home"><span class="brand-mark" aria-hidden="true"></span>Axis Metis</a>
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#work">Work</a>
+      <a href="#standards">Standards</a>
+      <a class="pill" href="#contact">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">Software engineering · Johannesburg</p>
+      <h1 id="hero-title"></h1>
+      <p class="lede" id="hero-body"></p>
+      <div class="actions">
+        <a class="btn btn-light" href="#contact">Start a project</a>
+        <a class="btn btn-ghost" href="#work">Review the work</a>
+      </div>
+    </div>
+
+    <div class="studio" aria-label="Project brief player">
+      <div class="studio-head">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Project brief</span>
+        <span class="studio-voice" id="voice-label">Browser voice</span>
+      </div>
+      <div class="chips" role="tablist" id="sector-chips" aria-label="Sector"></div>
+      <p class="script" id="script" aria-live="polite"></p>
+      <div class="wave" id="hero-wave" aria-hidden="true"></div>
+      <div class="studio-foot">
+        <button class="play" id="play" aria-label="Play brief"><span class="ico" aria-hidden="true"></span></button>
+        <div class="progress"><i id="progress"></i></div>
+        <span class="time" id="time">0:00</span>
+      </div>
+      <p class="studio-note" id="studio-note"></p>
+    </div>
+  </section>
+
+  <section class="assure wrap" aria-label="How every engagement runs">
+    <ul id="assurances"></ul>
+  </section>
+
+  <section id="services" class="section wrap">
+    <div class="section-head">
+      <p class="eyebrow">Services</p>
+      <h2>Three practices, one delivery team.</h2>
+    </div>
+    <div class="tabs" role="tablist" id="practice-tabs" aria-label="Practices"></div>
+    <div class="tab-panel" id="practice-panel" role="tabpanel"></div>
+  </section>
+
+  <section id="process" class="section wrap">
+    <div class="section-head">
+      <p class="eyebrow">Process</p>
+      <h2>Six phases, written down before the build.</h2>
+    </div>
+    <div class="timeline" id="timeline" role="tablist" aria-label="Phases"></div>
+    <div class="phase-panel" id="phase-panel" aria-live="polite"></div>
+    <div class="phase-controls">
+      <button class="btn btn-ghost" id="phase-prev" aria-label="Previous phase">Previous</button>
+      <button class="btn btn-light" id="phase-play">Play the process</button>
+      <button class="btn btn-ghost" id="phase-next" aria-label="Next phase">Next</button>
+    </div>
+  </section>
+
+  <section id="work" class="section wrap">
+    <div class="section-head split-head">
+      <div>
+        <p class="eyebrow">Work</p>
+        <h2>Delivered across five sectors.</h2>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter by sector"></div>
+    </div>
+    <div class="grid-work" id="work-grid"></div>
+    <p class="empty" id="work-empty" hidden>No projects in this sector yet.</p>
+  </section>
+
+  <section id="standards" class="section wrap">
+    <div class="section-head">
+      <p class="eyebrow">Standards</p>
+      <h2>What every engagement includes.</h2>
+    </div>
+    <div class="accordion" id="standards-list"></div>
+  </section>
+
+  <section class="section stack-band" aria-label="Technology">
+    <div class="wrap">
+      <p class="eyebrow">Stack</p>
+      <div class="stack" id="stack"></div>
+    </div>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+  </section>
+
+  <section id="fit" class="section wrap">
+    <div class="section-head split-head">
+      <div>
+        <p class="eyebrow">Fit</p>
+        <h2>When a custom build is the right call.</h2>
+      </div>
+      <div class="seg" role="tablist" aria-label="Fit">
+        <button role="tab" aria-selected="true" data-fit="yes">A good fit</button>
+        <button role="tab" aria-selected="false" data-fit="no">Not a fit</button>
+      </div>
+    </div>
+    <div class="fit-grid" id="fit-list"></div>
+  </section>
+
+  <section id="contact" class="section wrap contact">
+    <div class="contact-copy">
+      <p class="eyebrow">Contact</p>
+      <h2>Tell us where the process breaks down.</h2>
+      <p class="muted">We reply within two business days. If the work fits, the next step is a discovery session, then a written scope.</p>
+      <dl class="contact-meta">
+        <div><dt>Email</dt><dd><a href="mailto:admin@axismetis.co.za">admin@axismetis.co.za</a></dd></div>
+        <div><dt>Based in</dt><dd>Johannesburg, South Africa</dd></div>
+      </dl>
+    </div>
+    <form id="contact-form" class="form" novalidate>
+      <label>Name<input required name="name" autocomplete="name"></label>
+      <label>Email<input required type="email" name="email" autocomplete="email"></label>
+      <label class="full">Company<input name="company" autocomplete="organization"></label>
+      <label class="full">What you need<select name="need"></select></label>
+      <label class="full">The problem<textarea required name="message" rows="6" placeholder="What does the process look like today, and where does it break down?"></textarea></label>
+      <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="full form-foot">
+        <button type="submit" class="btn btn-light">Send enquiry</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </div>
+      <p class="full fine">Enquiries are used only to reply to you. See the <a href="#" data-legal="privacy">Privacy</a> notice.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <p>© <span data-year></span> Axis Metis. Johannesburg, South Africa.</p>
+    <nav aria-label="Legal"><a href="#" data-legal="privacy">Privacy</a><a href="#" data-legal="terms">Terms</a><a href="mailto:admin@axismetis.co.za">admin@axismetis.co.za</a></nav>
+  </div>
+</footer>
+
+<dialog id="dialog" class="dialog">
+  <button class="dialog-close" data-close aria-label="Close">Close</button>
+  <div id="dialog-body"></div>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

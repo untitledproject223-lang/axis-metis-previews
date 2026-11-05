@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cursor study · Axis Metis</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:Inter,Segoe UI,sans-serif;line-height:1.5}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+img{max-width:100%}
+
+      body{background:#1e1e1e;color:#d4d4d4;font-family:Consolas,"Cascadia Mono",monospace}
+      .app{display:grid;grid-template-columns:220px 1fr;min-height:100vh}
+      .side{background:#181818;padding:14px;border-right:1px solid #2a2a2a}
+      .side p{font-size:11px;letter-spacing:.08em;color:#888}
+      .side a{display:block;color:#ccc;text-decoration:none;padding:6px 8px;border-radius:6px;font-size:13px}
+      .side a.on{background:#2a2d2e}
+      main{padding:0}
+      .tabs{display:flex;gap:0;background:#181818;border-bottom:1px solid #2a2a2a}
+      .tabs span{padding:8px 14px;font-size:12px;color:#aaa}
+      .tabs .on{background:#1e1e1e;color:#fff;border-top:1px solid #007acc}
+      .code{padding:22px 22px 48px}
+      h1{font-family:Segoe UI,sans-serif;font-size:clamp(32px,4vw,48px);letter-spacing:-.03em;color:#fff;font-weight:600}
+      .dek{color:#bbb;max-width:68ch;margin:14px 0}
+      .cta{color:#fff;background:#007acc;text-decoration:none;padding:8px 12px;border-radius:6px}
+      .ln{display:grid;grid-template-columns:36px 1fr;gap:10px;padding:6px 0;border-top:1px solid #2a2a2a;font-size:13px}
+      .ln span{color:#6a6a6a}
+      .study{color:#888;font-size:12px;margin-top:22px}
+      @media(max-width:860px){.app{grid-template-columns:1fr}}
+    
+@media (max-width:860px){
+  .split,.cols,.cols-3,.cols-4{grid-template-columns:1fr !important}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+
+      <div class="app">
+        <aside class="side">
+          <p>EXPLORER</p>
+          <a class="on" href="#brief">brief.md</a>
+          <a href="#services">operational.ts</a><a href="#services">commerce.ts</a><a href="#services">custom.ts</a>
+          <a href="#work">digital-dwella.md</a><a href="#work">pheli-seafood.md</a><a href="#work">vital-plate.md</a><a href="#work">dka-school.md</a><a href="#work">nendila-travels.md</a>
+        </aside>
+        <main>
+          <div class="tabs"><span class="on">brief.md</span><span>process.ts</span></div>
+          <div class="code" id="brief">
+            <h1>The operational systems your business runs on.</h1>
+            <p class="dek">Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel. Scope is written first, the build is tested before launch, and the system is handed over into your ownership.</p>
+            <a class="cta" href="mailto:admin@axismetis.co.za">Start a project</a>
+            <section id="services"><div class="ln"><span>1</span><div><b>Operational platforms and CRM</b><div>Clients, deals, jobs, invoicing, and reporting, modelled on the workflow you already run.</div></div></div><div class="ln"><span>2</span><div><b>Commerce and customer portals</b><div>Storefronts, ordering, and the admin behind them, so the team can run catalogue, stock, and orders.</div></div></div><div class="ln"><span>3</span><div><b>Custom software</b><div>Internal tools and customer applications built around a real process, not a generic template.</div></div></div></section>
+            <section id="work"><div class="ln"><span>8</span><div><b>Digital Dwella</b> · Property<div>Letting CRM for units, tenants, rent, and tickets.</div></div></div><div class="ln"><span>9</span><div><b>Pheli Seafood</b> · Hospitality<div>Restaurant ordering and kitchen dispatch on web and mobile.</div></div></div><div class="ln"><span>10</span><div><b>Vital Plate</b> · Healthcare<div>Dietetics desk for records, bookings, and meal plans.</div></div></div><div class="ln"><span>11</span><div><b>DKA School</b> · Education<div>School website and admin for learners, parents, and staff.</div></div></div><div class="ln"><span>12</span><div><b>Nendila Travels</b> · Travel<div>Agency bookings, clients, and PDF invoices.</div></div></div></section>
+            <p class="study"><a href="index.html">All studies</a> · Visual reference: Cursor. Axis Metis content. Not affiliated.</p>
+          </div>
+        </main>
+      </div>
+</body>
+</html>

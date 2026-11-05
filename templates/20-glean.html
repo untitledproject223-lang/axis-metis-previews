@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glean study · Axis Metis</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:Inter,Segoe UI,sans-serif;line-height:1.5}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+img{max-width:100%}
+
+      body{background:#fff;color:#1a1a1a}
+      .bar{padding:16px 20px;border-bottom:1px solid #eee;display:flex;gap:16px;align-items:center}
+      .q{flex:1;background:#f4f5f7;border-radius:12px;padding:12px 14px;color:#555}
+      .app{display:grid;grid-template-columns:220px 1fr}
+      aside{padding:18px;border-right:1px solid #eee}
+      aside a{display:block;text-decoration:none;padding:8px 10px;border-radius:8px}
+      aside a:hover{background:#f4f5f7}
+      main{padding:18px 22px 40px}
+      h1{font-size:clamp(28px,4vw,40px);letter-spacing:-.03em}
+      .dek{color:#444;margin:10px 0 16px;max-width:65ch}
+      .hit{padding:14px 0;border-bottom:1px solid #f0f0f0}
+      .kicker{color:#5b4dff;font-size:12px;font-weight:700}
+      .cta{display:inline-block;margin-top:16px;background:#5b4dff;color:#fff;text-decoration:none;border-radius:8px;padding:10px 14px}
+      .study{color:#777;font-size:12px;margin-top:18px}
+      @media(max-width:860px){.app{grid-template-columns:1fr}}
+    
+@media (max-width:860px){
+  .split,.cols,.cols-3,.cols-4{grid-template-columns:1fr !important}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+
+      <div class="bar"><strong>Axis Metis</strong><div class="q">Search work, services, or a sector</div></div>
+      <div class="app">
+        <aside>
+          <a href="#results">All work</a>
+          <a href="#results">Property</a><a href="#results">Hospitality</a><a href="#results">Healthcare</a><a href="#results">Education</a><a href="#results">Travel</a>
+          <a href="mailto:admin@axismetis.co.za">Contact</a>
+        </aside>
+        <main>
+          <h1>The operational systems your business runs on.</h1>
+          <p class="dek">Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel. Scope is written first, the build is tested before launch, and the system is handed over into your ownership.</p>
+          <section id="results"><article class="hit"><p class="kicker">Property</p><h3>Digital Dwella</h3><p>Letting CRM for units, tenants, rent, and tickets.</p></article><article class="hit"><p class="kicker">Hospitality</p><h3>Pheli Seafood</h3><p>Restaurant ordering and kitchen dispatch on web and mobile.</p></article><article class="hit"><p class="kicker">Healthcare</p><h3>Vital Plate</h3><p>Dietetics desk for records, bookings, and meal plans.</p></article><article class="hit"><p class="kicker">Education</p><h3>DKA School</h3><p>School website and admin for learners, parents, and staff.</p></article><article class="hit"><p class="kicker">Travel</p><h3>Nendila Travels</h3><p>Agency bookings, clients, and PDF invoices.</p></article></section>
+          <a class="cta" href="mailto:admin@axismetis.co.za">Start a project</a>
+          <p class="study"><a href="index.html">All studies</a> · Visual reference: Glean. Axis Metis content. Not affiliated.</p>
+        </main>
+      </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="Pheli Seafood">
+  <rect width="56" height="56" rx="8" fill="#9b1c1c"/>
+  <path d="M12 30c8-10 18-12 28-6-4 2-7 5-8 9 6-1 12 1 16 6-12 2-22 0-30-4-3-1-5-3-6-5Z" fill="#fde8e8"/>
+  <circle cx="20.5" cy="26.5" r="1.6" fill="#9b1c1c"/>
+  <path d="M18 34c4 3 10 4 16 2" stroke="#f59e0b" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

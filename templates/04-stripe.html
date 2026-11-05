@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stripe study · Axis Metis</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:Inter,Segoe UI,sans-serif;line-height:1.5}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+img{max-width:100%}
+
+      body{background:#f6f9fc;color:#0a2540}
+      nav{display:flex;justify-content:space-between;padding:18px 32px;font-size:14px}
+      nav a{text-decoration:none;margin-left:16px}
+      .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;padding:24px 32px 48px;align-items:center}
+      h1{font-size:clamp(40px,5vw,64px);letter-spacing:-.04em;line-height:1.02;font-weight:600}
+      .dek{margin-top:16px;color:#425466;font-size:17px}
+      .cta{display:inline-block;margin-top:22px;background:#635bff;color:#fff;text-decoration:none;border-radius:6px;padding:11px 16px;font-weight:600}
+      .panel{background:#fff;border-radius:16px;box-shadow:0 30px 60px rgba(50,50,93,.12);padding:18px;position:relative;overflow:hidden}
+      .panel:before{content:"";position:absolute;inset:auto -20% -30% -20%;height:180px;background:radial-gradient(circle,#80e9ff,transparent 60%),radial-gradient(circle at 30% 40%,#ff80bf,transparent 50%);opacity:.9}
+      .row{display:flex;justify-content:space-between;gap:16px;background:#fff;border:1px solid #e6ebf1;border-radius:10px;padding:12px;margin-bottom:8px;position:relative;z-index:1}
+      .row b{font-size:14px}
+      .row span{color:#635bff;font-size:12px}
+      .cols-4,.cols-3{display:grid;gap:16px;padding:0 32px 32px}
+      .cols-4{grid-template-columns:repeat(4,1fr)}
+      .cols-3{grid-template-columns:repeat(3,1fr)}
+      .work,.practice{background:#fff;border-radius:12px;padding:16px;border:1px solid #e6ebf1}
+      .kicker{color:#635bff;font-size:12px;font-weight:600}
+      .practice p,.work p{color:#425466;font-size:14px;margin-top:6px}
+      .points{margin-top:8px;font-size:13px;color:#425466}
+      .study{padding:0 32px 40px;color:#667788;font-size:12px}
+    
+@media (max-width:860px){
+  .split,.cols,.cols-3,.cols-4{grid-template-columns:1fr !important}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+
+      <nav><strong>Axis Metis</strong><span><a href="#services">Services</a><a href="#work">Work</a><a href="mailto:admin@axismetis.co.za">Contact</a></span></nav>
+      <header class="hero split">
+        <div><h1>The operational systems your business runs on.</h1><p class="dek">Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel. Scope is written first, the build is tested before launch, and the system is handed over into your ownership.</p><a class="cta" href="mailto:admin@axismetis.co.za">Start a project</a></div>
+        <div class="panel">
+          <div class="row"><b>Written scope</b><span>Deliverables and acceptance criteria before the build starts.</span></div><div class="row"><b>Your ownership</b><span>Source, infrastructure, and accounts handed over in your name.</span></div><div class="row"><b>Tested first</b><span>Sign-off on staging before anything goes live.</span></div><div class="row"><b>Johannesburg</b><span>A South African delivery team, in your time zone.</span></div>
+        </div>
+      </header>
+      <section class="cols-3" id="services"><article class="practice"><h3>Operational platforms and CRM</h3><p>Clients, deals, jobs, invoicing, and reporting, modelled on the workflow you already run.</p><ul class="points"><li>Pipelines</li><li>Invoicing</li><li>Access control</li><li>Spreadsheet migration</li></ul></article><article class="practice"><h3>Commerce and customer portals</h3><p>Storefronts, ordering, and the admin behind them, so the team can run catalogue, stock, and orders.</p><ul class="points"><li>Catalogue</li><li>Checkout</li><li>Fulfilment</li><li>iOS and Android</li></ul></article><article class="practice"><h3>Custom software</h3><p>Internal tools and customer applications built around a real process, not a generic template.</p><ul class="points"><li>Web and mobile</li><li>APIs</li><li>Reporting</li><li>Legacy replacement</li></ul></article></section>
+      <section class="cols" id="work" style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px;padding:0 32px 28px"><article class="work"><p class="kicker">Property</p><h3>Digital Dwella</h3><p>Letting CRM for units, tenants, rent, and tickets.</p></article><article class="work"><p class="kicker">Hospitality</p><h3>Pheli Seafood</h3><p>Restaurant ordering and kitchen dispatch on web and mobile.</p></article><article class="work"><p class="kicker">Healthcare</p><h3>Vital Plate</h3><p>Dietetics desk for records, bookings, and meal plans.</p></article><article class="work"><p class="kicker">Education</p><h3>DKA School</h3><p>School website and admin for learners, parents, and staff.</p></article><article class="work"><p class="kicker">Travel</p><h3>Nendila Travels</h3><p>Agency bookings, clients, and PDF invoices.</p></article></section>
+      <p class="study"><a href="index.html">All studies</a> · Visual reference: Stripe. Axis Metis content. Not affiliated.</p>
+</body>
+</html>

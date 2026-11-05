@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="Digital Dwella">
+  <rect width="56" height="56" rx="8" fill="#134e4a"/>
+  <path d="M14 36.5V24.2L28 14.5l14 9.7v12.3" stroke="#ecfdf5" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M22 36.5V28h12v8.5" stroke="#99f6e4" stroke-width="2.4" stroke-linejoin="round"/>
+</svg>

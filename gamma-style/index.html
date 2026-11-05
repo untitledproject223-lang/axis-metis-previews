@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axis Metis · Operational systems without limits</title>
+<meta name="description" content="Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel businesses in South Africa.">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@1,9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top" id="top">
+  <div class="top-row">
+    <a class="brand" href="#main" aria-label="Axis Metis home">AXIS METIS</a>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#practices">Practices</a>
+      <a href="#outputs">Process</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta-pill mobile-only" href="#contact">Start a project</a>
+    </nav>
+    <div class="top-actions">
+      <a class="link" href="mailto:admin@axismetis.co.za">Email us</a>
+      <a class="cta-pill" href="#contact">Start a project</a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="sky" aria-labelledby="hero-title">
+    <canvas class="stars" id="stars" aria-hidden="true"></canvas>
+    <div class="orb o1" aria-hidden="true"><i></i></div>
+    <div class="orb o2" aria-hidden="true"><i></i></div>
+    <div class="orb o3" aria-hidden="true"><i></i></div>
+    <div class="hero-copy">
+      <h1 id="hero-title">Operational systems<br>without limits.</h1>
+      <p id="hero-body"></p>
+      <a class="white-pill" href="#contact">Start a project</a>
+    </div>
+    <div class="rail" id="work" aria-label="Featured work">
+      <div class="rail-track" id="rail-track"></div>
+    </div>
+    <div class="clouds" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="rebuilt" id="practices" aria-labelledby="practices-title">
+    <h2 id="practices-title" class="h2">We rebuilt how <span class="grad">operations software</span> gets made.</h2>
+    <div class="rows" id="rows"></div>
+  </section>
+
+  <section class="formats" id="outputs" aria-labelledby="outputs-title">
+    <h2 id="outputs-title" class="h2">One process, six outputs, all in <em>your</em> name.</h2>
+    <div class="format-grid" id="format-grid"></div>
+  </section>
+
+  <section class="board" id="standards" aria-labelledby="board-title">
+    <div class="board-head">
+      <div>
+        <h2 id="board-title" class="h2 left">Standards guided by the people who run the system</h2>
+        <p class="sub">Six commitments in every scope we write.</p>
+      </div>
+      <div class="board-ctrl">
+        <button class="circle" id="board-prev" aria-label="Previous standard">&#8592;</button>
+        <button class="circle" id="board-next" aria-label="Next standard">&#8594;</button>
+      </div>
+    </div>
+    <div class="board-track" id="board-track" tabindex="0" aria-label="Standards, scroll sideways"></div>
+  </section>
+
+  <section class="wall" aria-labelledby="wall-title">
+    <h2 id="wall-title" class="h2">Five sectors, one delivery team</h2>
+    <p class="sub center">What each engagement delivered.</p>
+    <div class="marquee" id="marquee"></div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title" class="h2">Frequently asked questions</h2>
+    <p class="sub center">Can't find the answer? Email <a id="faq-mail" href="#"></a>.</p>
+    <div class="faq-list" id="faq-list"></div>
+  </section>
+
+  <section class="night" id="contact" aria-labelledby="contact-title">
+    <canvas class="stars" id="stars-2" aria-hidden="true"></canvas>
+    <div class="orb o4" aria-hidden="true"><i></i></div>
+    <div class="night-inner">
+      <div class="night-copy">
+        <h2 id="contact-title" class="h2 light left">How good systems get into the world.</h2>
+        <p>Tell us where the process breaks down. We reply within two business days. If the work fits, the next step is a discovery session, then a written scope.</p>
+        <div class="fit-switch" role="tablist" aria-label="Is it a fit">
+          <button role="tab" aria-selected="true" data-fit="yes">Build it</button>
+          <button role="tab" aria-selected="false" data-fit="no">Don't build it</button>
+        </div>
+        <ul class="fit-list" id="fit-list"></ul>
+      </div>
+      <form id="contact-form" class="form" novalidate>
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Company<input name="company" autocomplete="organization"></label>
+        <label>What you need<select name="need"></select></label>
+        <label class="wide">The problem<textarea name="message" rows="4" required placeholder="What does the process look like today, and where does it break down?"></textarea></label>
+        <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <button class="white-pill wide" type="submit">Send enquiry</button>
+        <p class="form-status wide" id="form-status" role="status"></p>
+        <p class="fine wide">Enquiries are used only to reply to you. See the <a href="#" data-legal="privacy">Privacy notice</a>.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-grid">
+    <div><a class="brand dark" href="#main">AXIS METIS</a><p id="stack" class="stack"></p></div>
+    <div><h3>Work</h3><ul id="foot-work"></ul></div>
+    <div><h3>Company</h3><ul><li><a href="#practices">Practices</a></li><li><a href="#outputs">Process</a></li><li><a href="#standards">Standards</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    <div><h3>Legal</h3><ul><li><a href="#" data-legal="privacy">Privacy</a></li><li><a href="#" data-legal="terms">Terms</a></li></ul></div>
+  </div>
+  <p class="copy">© <span data-year></span> Axis Metis. Johannesburg, South Africa.</p>
+</footer>
+
+<dialog id="dialog" class="dialog">
+  <button class="dialog-close" data-close aria-label="Close">Close</button>
+  <div id="dialog-body"></div>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axis Metis upgrade studies</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:Inter,Segoe UI,sans-serif;line-height:1.5}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+img{max-width:100%}
+
+      body{background:#0e0f12;color:#f4f1ea;font-family:Segoe UI,sans-serif}
+      .wrap{max-width:1100px;margin:0 auto;padding:36px 20px 64px}
+      h1{font-size:clamp(36px,5vw,60px);letter-spacing:-.04em;line-height:.95}
+      .lead{max-width:68ch;color:#c8c2b8;margin:16px 0 28px}
+      .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+      .card{display:block;text-decoration:none;background:#17181d;border:1px solid #2a2c33;border-radius:16px;padding:16px;min-height:150px}
+      .card strong{display:block;font-size:22px;margin-top:18px}
+      .card em{display:block;font-style:normal;color:#b7b1a8;margin-top:6px}
+      .num{font-family:Consolas,monospace;color:#8d887f}
+      .open{display:inline-block;margin-top:14px;font-size:13px;border-bottom:1px solid #8d887f}
+      .sw{width:100%;height:8px;border-radius:99px;background:var(--swatch);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2);margin-top:8px}
+      @media(max-width:700px){.grid{grid-template-columns:1fr}}
+    
+@media (max-width:860px){
+  .split,.cols,.cols-3,.cols-4{grid-template-columns:1fr !important}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+      <h1>Twenty layouts for an Axis Metis upgrade.</h1>
+      <p class="lead">Each file is a standalone HTML page using the studio's own services, work, and process. The visual reference is a private company that appears on 2026 valuation trackers. Those trackers do not agree on order or price, so this set is not a ranking and the pages are not affiliated with those companies.</p>
+      <div class="grid"><a class="card" href="01-anthropic.html" style="--swatch:#f4f1ea;--ink:#1c1915">
+        <span class="num">01</span>
+        <strong>Anthropic</strong><i class="sw"></i>
+        <em>Quiet paper page, serif headline, long reading measure.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="02-openai.html" style="--swatch:#ffffff;--ink:#111">
+        <span class="num">02</span>
+        <strong>OpenAI</strong><i class="sw"></i>
+        <em>Almost empty page. One large line, then a black band.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="03-databricks.html" style="--swatch:#0b1d33;--ink:#fff">
+        <span class="num">03</span>
+        <strong>Databricks</strong><i class="sw"></i>
+        <em>Dark data workspace. Notebook cells for the six phases.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="04-stripe.html" style="--swatch:#f6f9fc;--ink:#0a2540">
+        <span class="num">04</span>
+        <strong>Stripe</strong><i class="sw"></i>
+        <em>Light product page. Gradient field and an operations panel.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="05-revolut.html" style="--swatch:#000000;--ink:#fff">
+        <span class="num">05</span>
+        <strong>Revolut</strong><i class="sw"></i>
+        <em>Black fintech page with stacked product cards.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="06-canva.html" style="--swatch:#7d2ae8;--ink:#fff">
+        <span class="num">06</span>
+        <strong>Canva</strong><i class="sw"></i>
+        <em>Template gallery. Sector tiles you can start from.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="07-ramp.html" style="--swatch:#f4f4f1;--ink:#111">
+        <span class="num">07</span>
+        <strong>Ramp</strong><i class="sw"></i>
+        <em>Finance desk. Black summary card, lime figures, plain table.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="08-cursor.html" style="--swatch:#1e1e1e;--ink:#ddd">
+        <span class="num">08</span>
+        <strong>Cursor</strong><i class="sw"></i>
+        <em>Editor chrome. Files on the left, the brief in the editor.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="09-epic-games.html" style="--swatch:#000000;--ink:#fff">
+        <span class="num">09</span>
+        <strong>Epic Games</strong><i class="sw"></i>
+        <em>Full-viewport title card. The work sits underneath like a library.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="10-figure.html" style="--swatch:#f2f2f2;--ink:#111">
+        <span class="num">10</span>
+        <strong>Figure</strong><i class="sw"></i>
+        <em>Product spec. A large still on the left, requirements on the right.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="11-perplexity.html" style="--swatch:#ffffff;--ink:#111">
+        <span class="num">11</span>
+        <strong>Perplexity</strong><i class="sw"></i>
+        <em>A question in the centre, then an answer with sources.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="12-elevenlabs.html" style="--swatch:#050505;--ink:#fff">
+        <span class="num">12</span>
+        <strong>ElevenLabs</strong><i class="sw"></i>
+        <em>Dark audio desk. The process is a waveform you can scan.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="13-harvey.html" style="--swatch:#f6f3ee;--ink:#142033">
+        <span class="num">13</span>
+        <strong>Harvey</strong><i class="sw"></i>
+        <em>A brief, set out like a document with numbered clauses.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="14-sierra.html" style="--swatch:#f3f6f4;--ink:#14221b">
+        <span class="num">14</span>
+        <strong>Sierra</strong><i class="sw"></i>
+        <em>A conversation on the right, the offer on the left.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="15-replit.html" style="--swatch:#1c2333;--ink:#e8eefc">
+        <span class="num">15</span>
+        <strong>Replit</strong><i class="sw"></i>
+        <em>IDE window with a run button and the three practices as files.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="16-mercury.html" style="--swatch:#f7f4ef;--ink:#1c1917">
+        <span class="num">16</span>
+        <strong>Mercury</strong><i class="sw"></i>
+        <em>Private-bank calm. Ivory ground, hairline rules, account rows.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="17-waymo.html" style="--swatch:#f4f7f8;--ink:#102027">
+        <span class="num">17</span>
+        <strong>Waymo</strong><i class="sw"></i>
+        <em>A route map. Six stops, one line, from discovery to handover.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="18-kalshi.html" style="--swatch:#ffffff;--ink:#111">
+        <span class="num">18</span>
+        <strong>Kalshi</strong><i class="sw"></i>
+        <em>Two contracts: when a build is a fit, and when it is not.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="19-whatnot.html" style="--swatch:#ffe500;--ink:#111">
+        <span class="num">19</span>
+        <strong>Whatnot</strong><i class="sw"></i>
+        <em>Live-show energy. Yellow ground and five work cards.</em>
+        <span class="open">Open template</span>
+      </a><a class="card" href="20-glean.html" style="--swatch:#ffffff;--ink:#1a1a1a">
+        <span class="num">20</span>
+        <strong>Glean</strong><i class="sw"></i>
+        <em>Workplace search. Filters on the left, results from the work.</em>
+        <span class="open">Open template</span>
+      </a></div>
+    </div>
+</body>
+</html>
