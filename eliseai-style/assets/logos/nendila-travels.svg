@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="Nendila Travels">
-  <rect width="56" height="56" rx="8" fill="#0f4c4c"/>
-  <circle cx="28" cy="28" r="13" stroke="#7dd3d0" stroke-width="1.6"/>
-  <path d="M14 31.5c8-1.5 16-1.5 28 0" stroke="#7dd3d0" stroke-width="1.2"/>
-  <path d="M16 24.5 42 21.2l-8.2 6.4 8.8 8.2-27.4-4.6 9.4-2.2-8.6-4.5Z" fill="#ecfeff"/>
+  <rect width="56" height="56" rx="12" fill="#1c2a3a"/>
+  <circle cx="28" cy="28" r="15" stroke="#d9b779" stroke-width="2"/>
+  <path d="M28 13.5v3M28 39.5v3M13.5 28h3M39.5 28h3" stroke="#d9b779" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 18.5 32 28h-8l4-9.5Z" fill="#f2ead9"/>
+  <path d="M28 37.5 24 28h8l-4 9.5Z" fill="#d9b779" fill-opacity=".55"/>
+  <circle cx="28" cy="28" r="1.6" fill="#1c2a3a"/>
 </svg>

@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Axis Metis · Operational systems for the way you run</title>
+<title>Axis Metis · Software for the business you actually run</title>
 <meta name="description" content="Axis Metis designs, builds, and supports custom platforms for property, hospitality, healthcare, education, and travel businesses in South Africa.">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
@@ -16,13 +16,13 @@
 
 <header class="top" id="top">
   <div class="wrap top-row">
-    <a class="brand" href="#main" aria-label="Axis Metis home">Axis<sup>Metis</sup></a>
+    <a class="brand" href="#main" aria-label="Axis Metis home"><img src="assets/icon.svg" alt="" width="26" height="26">Axis Metis</a>
     <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span></button>
     <nav id="menu" class="menu" aria-label="Main">
-      <a href="#customers">Customers</a>
-      <a href="#platform">Platform</a>
-      <a href="#record">How we deliver</a>
-      <a href="#standards">Standards</a>
+      <a href="#work">Work</a>
+      <a href="#why">Why Axis Metis</a>
+      <a href="#process">How a project runs</a>
+      <a href="#pricing">Pricing</a>
       <a class="btn sm" href="#contact">Book a discovery call</a>
     </nav>
   </div>
@@ -30,75 +30,73 @@
 
 <main id="main">
   <section class="hero" aria-labelledby="hero-title">
-    <div class="glow" aria-hidden="true"></div>
-    <div class="wrap narrow">
-      <p class="eyebrow">Custom software for operators</p>
-      <h1 id="hero-title">Always-on systems for the way your business runs</h1>
-      <p class="sub" id="hero-body"></p>
-      <form class="capture" data-capture>
-        <label class="sr" for="cap-1">Work email</label>
-        <input id="cap-1" type="email" name="email" placeholder="Enter your work email" autocomplete="email" required>
-        <button class="btn" type="submit">Book a discovery call</button>
-      </form>
-      <ul class="trust" id="trust"></ul>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Johannesburg · Custom operational software</p>
+        <h1 id="hero-title">Software for the business you <em>actually</em> run.</h1>
+        <p class="lead">Rental desks, restaurant kitchens, dietetics practices, school offices, and travel agencies. We map how the work is done today, put the scope and price in writing, build it, test it with your staff, and hand it over in your name.</p>
+        <form class="capture" data-capture>
+          <label class="sr" for="cap-1">Work email</label>
+          <input id="cap-1" type="email" name="email" placeholder="Your work email" autocomplete="email" required>
+          <button class="btn" type="submit">Book a discovery call</button>
+        </form>
+        <p class="hero-note">Reply within two business days. No obligation until a scope is signed.</p>
+      </div>
+      <aside class="hero-card" aria-label="What you keep">
+        <p class="hc-title">When the project ends, you hold</p>
+        <ul id="handover-mini"></ul>
+        <a href="#why" class="hc-link">What else is included &#8594;</a>
+      </aside>
     </div>
   </section>
 
-  <section class="customers" id="customers" aria-labelledby="customers-title">
+  <section class="clients" aria-label="Clients">
     <div class="wrap">
-      <h2 id="customers-title" class="h2">Trusted by operators in <span class="accent">five sectors</span></h2>
-      <div class="logo-grid" id="logo-grid"></div>
+      <p class="clients-label">Systems built and running for</p>
+      <ul class="client-row" id="client-row"></ul>
     </div>
   </section>
 
-  <section class="proof" id="proof" aria-labelledby="proof-title">
-    <div class="wrap narrow center">
-      <h2 id="proof-title" class="h2">Proof in the results</h2>
-      <p class="sub">What each engagement delivered, in the words of the case study.</p>
-    </div>
-    <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Project results">
-      <div class="slides" id="slides" aria-live="polite"></div>
-      <div class="car-ctrl">
-        <button class="arrow" id="car-prev" aria-label="Previous result">&#8592;</button>
-        <div class="dots" id="car-dots" role="tablist" aria-label="Choose a result"></div>
-        <button class="arrow" id="car-next" aria-label="Next result">&#8594;</button>
+  <section class="work" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Case studies</p>
+        <h2 id="work-title" class="h2">Five businesses, five different problems</h2>
+        <p class="sub">Each system was built around how that business already works. Pick one to see the brief, what it had to handle, and what was delivered.</p>
+      </div>
+      <div class="cases">
+        <div class="case-tabs" role="tablist" aria-label="Clients" id="case-tabs"></div>
+        <article class="case" id="case" role="tabpanel" aria-live="polite"></article>
       </div>
     </div>
   </section>
 
-  <section class="platform" id="platform" aria-labelledby="platform-title">
-    <div class="wrap narrow center">
-      <h2 id="platform-title" class="h2">Three practices, singular delivery</h2>
-      <p class="sub">One team designs, builds, tests, and supports every system, so your operators get one consistent product instead of a patchwork of vendors.</p>
-    </div>
-    <div class="wrap">
-      <div class="demo">
-        <div class="demo-tabs" role="tablist" aria-label="Practices" id="demo-tabs"></div>
-        <div class="window">
-          <div class="win-bar"><i></i><i></i><i></i><span id="win-title"></span></div>
-          <div class="win-body" id="demo-panel" role="tabpanel"></div>
-        </div>
+  <section class="why" id="why" aria-labelledby="why-title">
+    <div class="wrap why-grid">
+      <div>
+        <p class="eyebrow">Why owners choose us</p>
+        <h2 id="why-title" class="h2 left">You should not have to trust a developer forever.</h2>
+        <p class="sub left">Most of the risk in custom software comes after launch: the code sits in someone else's account, nobody wrote anything down, and every change needs the original developer. Everything we do is built to remove that dependency.</p>
       </div>
+      <ol class="reasons" id="reasons"></ol>
+    </div>
+    <div class="wrap handover">
+      <h3>At handover, this is yours</h3>
+      <ul id="handover"></ul>
     </div>
   </section>
 
-  <section class="record" id="record" aria-labelledby="record-title">
-    <div class="wrap narrow center">
-      <h2 id="record-title" class="h2 light">Everything in one project record</h2>
-      <p class="sub light">From the first discovery session to handover, every phase has a written output you can check, sign off, and keep.</p>
-      <a class="btn outline-light" href="#contact">Start a project</a>
+  <section class="process" id="process" aria-labelledby="process-title">
+    <div class="wrap section-head center">
+      <p class="eyebrow">How a project runs</p>
+      <h2 id="process-title" class="h2">Six phases. Each one ends with something you can check.</h2>
     </div>
     <div class="wrap">
       <div class="laptop">
         <div class="screen">
-          <div class="app-bar"><i></i><i></i><i></i><span class="url">app.axismetis.co.za/projects/your-system</span></div>
+          <div class="app-bar"><i></i><i></i><i></i><span class="url">Project record</span></div>
           <div class="app">
-            <aside class="app-side" aria-hidden="true"><b></b><b></b><b class="on"></b><b></b><b></b><b></b></aside>
             <div class="app-main">
-              <div class="app-head">
-                <div><p class="muted">Project record</p><h3>Your operational system</h3></div>
-                <div class="app-tabs"><span class="on">Overview</span><span>Timeline</span></div>
-              </div>
               <div class="app-grid">
                 <ol class="phase-list" id="phase-list" role="tablist" aria-label="Phases" aria-orientation="vertical"></ol>
                 <div class="phase-panel" id="phase-panel" role="tabpanel" aria-live="polite"></div>
@@ -111,39 +109,34 @@
     </div>
   </section>
 
-  <section class="standards" id="standards" aria-labelledby="standards-title">
-    <div class="wrap">
-      <div class="center narrow">
-        <h2 id="standards-title" class="h2">What every engagement includes</h2>
-        <p class="sub">Six commitments written into the scope, not left to the sales call.</p>
+  <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+    <div class="wrap pricing-grid">
+      <div>
+        <p class="eyebrow">Pricing</p>
+        <h2 id="pricing-title" class="h2 left">One fixed figure, agreed before any code is written.</h2>
       </div>
-      <div class="std-grid" id="std-grid"></div>
+      <div class="pricing-copy">
+        <p>We do not quote off a phone call. After discovery you receive a written scope with deliverables, milestones, acceptance criteria, and a fixed commercial figure. The figure is fixed against that scope, so you know the cost before you commit.</p>
+        <p>Support after go-live is a separate, agreed arrangement covering fixes, small changes, and the next phase of work when you are ready.</p>
+        <a class="btn ghost" href="#contact" data-need="Not sure yet">Ask what a scope would cover</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="practices" aria-labelledby="practices-title">
+    <div class="wrap">
+      <h2 id="practices-title" class="h2 left small">What we build</h2>
+      <div class="practice-cols" id="practice-cols"></div>
     </div>
   </section>
 
   <section class="fit" id="fit" aria-labelledby="fit-title">
     <div class="wrap">
-      <div class="center narrow">
-        <h2 id="fit-title" class="h2">Is custom the right call?</h2>
-        <p class="sub">We would rather tell you now than after the scope is signed.</p>
-      </div>
+      <h2 id="fit-title" class="h2 left small">We will tell you if custom is the wrong call</h2>
       <div class="fit-cols">
         <div class="fit-col yes"><h3>Build it when</h3><ul id="fit-yes"></ul></div>
-        <div class="fit-col no"><h3>Buy instead when</h3><ul id="fit-no"></ul></div>
+        <div class="fit-col no"><h3>Buy something off the shelf when</h3><ul id="fit-no"></ul></div>
       </div>
-      <p class="stack-line"><span>Built with</span><span id="stack"></span></p>
-    </div>
-  </section>
-
-  <section class="cta" aria-labelledby="cta-title">
-    <div class="glow" aria-hidden="true"></div>
-    <div class="wrap narrow center">
-      <h2 id="cta-title" class="h2">See what a written scope looks like for your process</h2>
-      <form class="capture" data-capture>
-        <label class="sr" for="cap-2">Work email</label>
-        <input id="cap-2" type="email" name="email" placeholder="Enter your work email" autocomplete="email" required>
-        <button class="btn" type="submit">Book a discovery call</button>
-      </form>
     </div>
   </section>
 
@@ -152,8 +145,12 @@
       <div>
         <p class="eyebrow">Start a project</p>
         <h2 id="contact-title" class="h2 left">Tell us where the process breaks down</h2>
-        <p class="sub left">We reply within two business days. If the work fits, the next step is a discovery session, then a written scope.</p>
-        <a class="mail" id="contact-mail" href="#"></a>
+        <p class="sub left">A short description is enough. We reply within two business days. If the work fits, the next step is a discovery session with the people who do the work, then a written scope.</p>
+        <dl class="contact-facts">
+          <div><dt>Email</dt><dd><a id="contact-mail" href="#"></a></dd></div>
+          <div><dt>Based in</dt><dd id="contact-city"></dd></div>
+          <div><dt>Works with</dt><dd id="contact-sectors"></dd></div>
+        </dl>
       </div>
       <form id="contact-form" class="form" novalidate>
         <label>Name<input name="name" autocomplete="name" required></label>
@@ -173,12 +170,12 @@
 <footer class="foot">
   <div class="wrap foot-grid">
     <div>
-      <a class="brand" href="#main">Axis<sup>Metis</sup></a>
-      <p class="muted" id="foot-city"></p>
+      <a class="brand" href="#main"><img src="assets/icon.svg" alt="" width="22" height="22">Axis Metis</a>
+      <p class="muted" id="stack"></p>
     </div>
-    <div><h3>Practices</h3><ul id="foot-practices"></ul></div>
     <div><h3>Work</h3><ul id="foot-work"></ul></div>
-    <div><h3>Company</h3><ul><li><a href="#record">How we deliver</a></li><li><a href="#standards">Standards</a></li><li><a href="#contact">Contact</a></li><li><a href="#" data-legal="privacy">Privacy</a></li><li><a href="#" data-legal="terms">Terms</a></li></ul></div>
+    <div><h3>Company</h3><ul><li><a href="#why">Why Axis Metis</a></li><li><a href="#process">How a project runs</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    <div><h3>Legal</h3><ul><li><a href="#" data-legal="privacy">Privacy</a></li><li><a href="#" data-legal="terms">Terms</a></li></ul></div>
   </div>
   <div class="wrap foot-base"><span>© <span data-year></span> Axis Metis. Johannesburg, South Africa.</span></div>
 </footer>

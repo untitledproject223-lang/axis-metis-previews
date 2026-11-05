@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" role="img" aria-label="Vital Plate">
-  <rect width="56" height="56" rx="8" fill="#1d3d38"/>
-  <circle cx="28" cy="28" r="14" stroke="#9fd8c8" stroke-width="2"/>
-  <circle cx="28" cy="28" r="8" stroke="#2a9d8f" stroke-width="1.6"/>
-  <path d="M28 18.5c2.2 2.8 2.4 6.2 0 9.2-2.4-3-2.2-6.4 0-9.2Z" fill="#9fd8c8"/>
+  <rect width="56" height="56" rx="12" fill="#183a2c"/>
+  <circle cx="28" cy="28" r="15" stroke="#e8e1cf" stroke-width="2.4"/>
+  <circle cx="28" cy="28" r="9.5" stroke="#e8e1cf" stroke-opacity=".45" stroke-width="1.4"/>
+  <path d="M28 36c-5.5-3.2-6.4-10.2 0-16 6.4 5.8 5.5 12.8 0 16Z" fill="#8fc49a"/>
+  <path d="M28 22.5V36" stroke="#183a2c" stroke-width="1.4" stroke-linecap="round"/>
 </svg>
